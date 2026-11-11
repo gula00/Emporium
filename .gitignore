@@ -1,0 +1,41 @@
+# CMake and compiler output
+/build*/
+/out/
+/dist/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.log
+
+# Runtime files are prepared locally from CHAI3D / Force Dimension SDK.
+/bin/win-*/
+/bin/resources/
+/dependencies/
+/third_party/
+
+# IDE and machine-specific configuration
+/.vs/
+/.vscode/
+CMakeUserPresets.json
+local.cmake
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Local credentials and OS metadata
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Files exported by the painting / height-map demos
+myPicture.*
+map3d.*
